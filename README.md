@@ -58,7 +58,21 @@ npm run dev
 
 ## 学習進捗
 
-- [x] インストール・環境構築
-- [x] プロジェクト構造
-- [x] レイアウトとページ
-- [x] リンクとナビゲーション
+- [x] [インストール](https://nextjsjp.org/docs/app/getting-started/installation)
+- [x] [プロジェクト構造](https://nextjsjp.org/docs/app/getting-started/project-structure)
+- [x] [レイアウトとページ](https://nextjsjp.org/docs/app/getting-started/layouts-and-pages)
+- [x] [リンクとナビゲーション](https://nextjsjp.org/docs/app/getting-started/linking-and-navigating)
+- [ ] [Server コンポーネントと Client コンポーネント](https://nextjsjp.org/docs/app/getting-started/server-and-client-components)
+- [ ] [Cache Components](https://nextjsjp.org/docs/app/getting-started/cache-components)
+- [ ] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data)
+- [ ] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data)
+- [ ] [キャッシングと再検証](https://nextjsjp.org/docs/app/getting-started/caching-and-revalidating)
+- [ ] [エラーハンドリング](https://nextjsjp.org/docs/app/getting-started/error-handling)
+- [ ] [CSS](https://nextjsjp.org/docs/app/getting-started/css)
+- [ ] [画像の最適化](https://nextjsjp.org/docs/app/getting-started/images)
+- [ ] [フォント最適化](https://nextjsjp.org/docs/app/getting-started/fonts)
+- [ ] [メタデータと OG 画像](https://nextjsjp.org/docs/app/getting-started/metadata-and-og-images)
+- [ ] [Route Handlers](https://nextjsjp.org/docs/app/getting-started/route-handlers)
+- [ ] [Proxy](https://nextjsjp.org/docs/app/getting-started/proxy)
+- [ ] [デプロイ](https://nextjsjp.org/docs/app/getting-started/deploying)
+- [ ] [アップグレード](https://nextjsjp.org/docs/app/getting-started/upgrading)
