@@ -58,6 +58,8 @@ npm run dev
 
 ## 学習進捗
 
+### Getting Started（nextjsjp.org）
+
 - [x] [インストール](https://nextjsjp.org/docs/app/getting-started/installation)
 - [x] [プロジェクト構造](https://nextjsjp.org/docs/app/getting-started/project-structure)
 - [x] [レイアウトとページ](https://nextjsjp.org/docs/app/getting-started/layouts-and-pages)
@@ -76,3 +78,21 @@ npm run dev
 - [ ] [Proxy](https://nextjsjp.org/docs/app/getting-started/proxy)
 - [ ] [デプロイ](https://nextjsjp.org/docs/app/getting-started/deploying)
 - [ ] [アップグレード](https://nextjsjp.org/docs/app/getting-started/upgrading)
+
+### Dashboard App（nextjs.org/learn）
+
+- [ ] [Getting Started](https://nextjs.org/learn/dashboard-app/getting-started)
+- [ ] [CSS Styling](https://nextjs.org/learn/dashboard-app/css-styling)
+- [ ] [Optimizing Fonts and Images](https://nextjs.org/learn/dashboard-app/optimizing-fonts-images)
+- [ ] [Creating Layouts and Pages](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages)
+- [ ] [Navigating Between Pages](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
+- [ ] [Setting Up Your Database](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
+- [ ] [Fetching Data](https://nextjs.org/learn/dashboard-app/fetching-data)
+- [ ] [Static and Dynamic Rendering](https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering)
+- [ ] [Streaming](https://nextjs.org/learn/dashboard-app/streaming)
+- [ ] [Adding Search and Pagination](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
+- [ ] [Mutating Data](https://nextjs.org/learn/dashboard-app/mutating-data)
+- [ ] [Handling Errors](https://nextjs.org/learn/dashboard-app/error-handling)
+- [ ] [Improving Accessibility](https://nextjs.org/learn/dashboard-app/improving-accessibility)
+- [ ] [Adding Authentication](https://nextjs.org/learn/dashboard-app/adding-authentication)
+- [ ] [Adding Metadata](https://nextjs.org/learn/dashboard-app/adding-metadata)
