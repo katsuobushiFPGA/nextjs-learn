@@ -20,6 +20,7 @@ nextjs-learn/
 | `2_project-structure.md` | プロジェクト構造 |
 | `3_layouts-and-pages.md` | レイアウトとページ |
 | `4_linking-and-navigating.md` | リンクとナビゲーション、プリフェッチ |
+| `5_server-and-client-components.md` | Server / Client コンポーネントの使い分け |
 | `*_summary_notebooklm.md` | NotebookLM による章まとめ |
 | `*_ai_question_summary.md` | AI への質問と回答まとめ |
 
@@ -64,7 +65,7 @@ npm run dev
 - [x] [プロジェクト構造](https://nextjsjp.org/docs/app/getting-started/project-structure)
 - [x] [レイアウトとページ](https://nextjsjp.org/docs/app/getting-started/layouts-and-pages)
 - [x] [リンクとナビゲーション](https://nextjsjp.org/docs/app/getting-started/linking-and-navigating)
-- [ ] [Server コンポーネントと Client コンポーネント](https://nextjsjp.org/docs/app/getting-started/server-and-client-components)
+- [x] [Server コンポーネントと Client コンポーネント](https://nextjsjp.org/docs/app/getting-started/server-and-client-components)
 - [ ] [Cache Components](https://nextjsjp.org/docs/app/getting-started/cache-components)
 - [ ] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data)
 - [ ] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data)
