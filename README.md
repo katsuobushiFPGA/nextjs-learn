@@ -21,6 +21,8 @@ nextjs-learn/
 | `3_layouts-and-pages.md` | レイアウトとページ |
 | `4_linking-and-navigating.md` | リンクとナビゲーション、プリフェッチ |
 | `5_server-and-client-components.md` | Server / Client コンポーネントの使い分け |
+| `6_cache-components.md` | Cache Components（`'use cache'`）と Suspense |
+| `7_fetching-data.md` | データの取得（Server / Client、ストリーミング） |
 | `*_summary_notebooklm.md` | NotebookLM による章まとめ |
 | `*_ai_question_summary.md` | AI への質問と回答まとめ |
 
@@ -37,12 +39,14 @@ nextjs-learn/
 app/
 ├── layout.tsx               # ルートレイアウト（ナビゲーション含む）
 ├── page.tsx                 # トップページ（searchParams デモ）
+├── components/
+│   └── Loading.tsx          # 共通ローディング UI
 └── blog/
     ├── layout.tsx           # ブログ共通レイアウト
     ├── page.tsx             # ブログ一覧
     └── [slug]/
         ├── page.tsx         # ブログ詳細（動的ルート）
-        ├── loading.tsx      # ローディング UI（コメントアウト中）
+        ├── loading.tsx      # ローディング UI
         └── [slug2]/
             └── page.tsx     # ネストした動的ルート
 ```
@@ -66,8 +70,8 @@ npm run dev
 - [x] [レイアウトとページ](https://nextjsjp.org/docs/app/getting-started/layouts-and-pages)
 - [x] [リンクとナビゲーション](https://nextjsjp.org/docs/app/getting-started/linking-and-navigating)
 - [x] [Server コンポーネントと Client コンポーネント](https://nextjsjp.org/docs/app/getting-started/server-and-client-components)
-- [ ] [Cache Components](https://nextjsjp.org/docs/app/getting-started/cache-components)
-- [ ] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data)
+- [x] [Cache Components](https://nextjsjp.org/docs/app/getting-started/cache-components)
+- [x] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data)
 - [ ] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data)
 - [ ] [キャッシングと再検証](https://nextjsjp.org/docs/app/getting-started/caching-and-revalidating)
 - [ ] [エラーハンドリング](https://nextjsjp.org/docs/app/getting-started/error-handling)
