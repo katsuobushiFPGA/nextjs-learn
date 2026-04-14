@@ -39,8 +39,16 @@ nextjs-learn/
 app/
 ├── layout.tsx               # ルートレイアウト（ナビゲーション含む）
 ├── page.tsx                 # トップページ（searchParams デモ）
+├── actions.ts               # Server Actions（投稿作成・いいね）
+├── client-component.tsx     # Server Actions を受け取るデモ用クライアントコンポーネント
+├── like-button.tsx          # いいねボタン（Client Component）
 ├── components/
 │   └── Loading.tsx          # 共通ローディング UI
+├── lib/
+│   └── actions.ts           # Server Actions（インライン定義版）
+├── ui/
+│   ├── button.tsx           # フォーム送信ボタン
+│   └── form.tsx             # フォームコンポーネント
 └── blog/
     ├── layout.tsx           # ブログ共通レイアウト
     ├── page.tsx             # ブログ一覧
@@ -72,8 +80,8 @@ npm run dev
 - [x] [Server コンポーネントと Client コンポーネント](https://nextjsjp.org/docs/app/getting-started/server-and-client-components)
 - [x] [Cache Components](https://nextjsjp.org/docs/app/getting-started/cache-components)
 - [x] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data)
-- [ ] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data)
-- [ ] [キャッシングと再検証](https://nextjsjp.org/docs/app/getting-started/caching-and-revalidating)
+- [x] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data)
+- [x] [キャッシングと再検証](https://nextjsjp.org/docs/app/getting-started/caching-and-revalidating)
 - [ ] [エラーハンドリング](https://nextjsjp.org/docs/app/getting-started/error-handling)
 - [ ] [CSS](https://nextjsjp.org/docs/app/getting-started/css)
 - [ ] [画像の最適化](https://nextjsjp.org/docs/app/getting-started/images)
