@@ -15,7 +15,7 @@ export default async function Page({
   const param = (await searchParams).param
   const slug = "abcdefg"
   return (
-    <>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>Top Page!</h1>
       <p>params: {param}</p>
       <p>searchParams: {filters}</p>
@@ -26,6 +26,6 @@ export default async function Page({
       <Button />
       <ClientComponent updateItemAction={updateItem} />
       <Form />
-    </>
+    </main>
   );
 }
