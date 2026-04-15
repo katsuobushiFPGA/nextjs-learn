@@ -1,5 +1,3 @@
-/*
 export default function Loading() {
-  return <LoadingSkeleton />
+  return <div>loading...</div>
 }
-*/
