@@ -103,7 +103,7 @@ npm run dev
 ### Dashboard App（nextjs.org/learn）
 
 - [x] [Getting Started](https://nextjs.org/learn/dashboard-app/getting-started)
-- [ ] [CSS Styling](https://nextjs.org/learn/dashboard-app/css-styling)
+- [x] [CSS Styling](https://nextjs.org/learn/dashboard-app/css-styling)
 - [ ] [Optimizing Fonts and Images](https://nextjs.org/learn/dashboard-app/optimizing-fonts-images)
 - [ ] [Creating Layouts and Pages](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages)
 - [ ] [Navigating Between Pages](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
