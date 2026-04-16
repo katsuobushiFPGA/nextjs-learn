@@ -42,6 +42,12 @@ app/
 ├── actions.ts               # Server Actions（投稿作成・いいね）
 ├── client-component.tsx     # Server Actions を受け取るデモ用クライアントコンポーネント
 ├── like-button.tsx          # いいねボタン（Client Component）
+├── proxy.ts                 # プロキシ設定
+├── sitemap.ts               # サイトマップ生成
+├── about/
+│   └── page.tsx             # About ページ
+├── api/
+│   └── route.ts             # Route Handler
 ├── components/
 │   └── Loading.tsx          # 共通ローディング UI
 ├── lib/
@@ -52,9 +58,11 @@ app/
 └── blog/
     ├── layout.tsx           # ブログ共通レイアウト
     ├── page.tsx             # ブログ一覧
+    ├── blog.module.css      # CSS モジュール
     └── [slug]/
         ├── page.tsx         # ブログ詳細（動的ルート）
         ├── loading.tsx      # ローディング UI
+        ├── not-found.tsx    # 404 ページ
         └── [slug2]/
             └── page.tsx     # ネストした動的ルート
 ```
@@ -82,15 +90,15 @@ npm run dev
 - [x] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data)
 - [x] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data)
 - [x] [キャッシングと再検証](https://nextjsjp.org/docs/app/getting-started/caching-and-revalidating)
-- [ ] [エラーハンドリング](https://nextjsjp.org/docs/app/getting-started/error-handling)
-- [ ] [CSS](https://nextjsjp.org/docs/app/getting-started/css)
-- [ ] [画像の最適化](https://nextjsjp.org/docs/app/getting-started/images)
-- [ ] [フォント最適化](https://nextjsjp.org/docs/app/getting-started/fonts)
-- [ ] [メタデータと OG 画像](https://nextjsjp.org/docs/app/getting-started/metadata-and-og-images)
-- [ ] [Route Handlers](https://nextjsjp.org/docs/app/getting-started/route-handlers)
-- [ ] [Proxy](https://nextjsjp.org/docs/app/getting-started/proxy)
-- [ ] [デプロイ](https://nextjsjp.org/docs/app/getting-started/deploying)
-- [ ] [アップグレード](https://nextjsjp.org/docs/app/getting-started/upgrading)
+- [x] [エラーハンドリング](https://nextjsjp.org/docs/app/getting-started/error-handling)
+- [x] [CSS](https://nextjsjp.org/docs/app/getting-started/css)
+- [x] [画像の最適化](https://nextjsjp.org/docs/app/getting-started/images)
+- [x] [フォント最適化](https://nextjsjp.org/docs/app/getting-started/fonts)
+- [x] [メタデータと OG 画像](https://nextjsjp.org/docs/app/getting-started/metadata-and-og-images)
+- [x] [Route Handlers](https://nextjsjp.org/docs/app/getting-started/route-handlers)
+- [x] [Proxy](https://nextjsjp.org/docs/app/getting-started/proxy)
+- [x] [デプロイ](https://nextjsjp.org/docs/app/getting-started/deploying)
+- [x] [アップグレード](https://nextjsjp.org/docs/app/getting-started/upgrading)
 
 ### Dashboard App（nextjs.org/learn）
 
