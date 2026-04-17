@@ -13,19 +13,28 @@ nextjs-learn/
 
 ### `1_learn/` — 学習ノート
 
-公式ドキュメントの各章を読んだメモ・要約・AI への質問まとめ。
+公式ドキュメントの各章を読んだメモ・要約・AI への質問まとめ。各章の「メインノート」「NotebookLM サマリ」「AI Q&A」へのリンク一覧：
 
-| ファイル | 内容 |
-|---|---|
-| `1_installation.md` | インストール・初期設定 |
-| `2_project-structure.md` | プロジェクト構造 |
-| `3_layouts-and-pages.md` | レイアウトとページ |
-| `4_linking-and-navigating.md` | リンクとナビゲーション、プリフェッチ |
-| `5_server-and-client-components.md` | Server / Client コンポーネントの使い分け |
-| `6_cache-components.md` | Cache Components（`'use cache'`）と Suspense |
-| `7_fetching-data.md` | データの取得（Server / Client、ストリーミング） |
-| `*_summary_notebooklm.md` | NotebookLM による章まとめ |
-| `*_ai_question_summary.md` | AI への質問と回答まとめ |
+| 章 | メインノート | NotebookLM サマリ | AI Q&A |
+|---|---|---|---|
+| 1. Installation | [1_installation.md](1_learn/1_installation.md) | - | - |
+| 2. Project Structure | [2_project-structure.md](1_learn/2_project-structure.md) | [summary](1_learn/2_summary_notebooklm.md) | - |
+| 3. Layouts and Pages | [3_layouts-and-pages.md](1_learn/3_layouts-and-pages.md) | [summary](1_learn/3_summary_notebooklm.md) | [Q&A](1_learn/3_ai_question_summary.md) |
+| 4. Linking and Navigating | [4_linking-and-navigating.md](1_learn/4_linking-and-navigating.md) | [summary](1_learn/4_summary_notebooklm.md) / [blog](1_learn/4_summary_notebooklm_blog.md) | [Q&A](1_learn/4_ai_question_summary.md) |
+| 5. Server and Client Components | [5_server-and-client-components.md](1_learn/5_server-and-client-components.md) | [summary](1_learn/5_summary_notebooklm.md) / [blog](1_learn/5_summary_notebooklm_blog.md) | [Q&A](1_learn/5_ai_question_summary.md) |
+| 6. Cache Components | [6_cache-components.md](1_learn/6_cache-components.md) | [summary](1_learn/6_summary_notebooklm.md) / [blog](1_learn/6_summary_notebooklm_blog.md) | [Q&A](1_learn/6_ai_question_summary.md) |
+| 7. Fetching Data | [7_fetching-data.md](1_learn/7_fetching-data.md) | [summary](1_learn/7_summary_notebooklm.md) / [blog](1_learn/7_summary_notebooklm_blog.md) | [Q&A](1_learn/7_ai_question_summary.md) |
+| 8. Updating Data | - | [summary](1_learn/8_summary_notebooklm.md) / [blog](1_learn/8_summary_notebooklm_blog.md) | [Q&A](1_learn/8_ai_question_summary.md) |
+| 9. Caching and Revalidating | - | [summary](1_learn/9_summary_notebooklm.md) / [blog](1_learn/9_summary_notebooklm_blog.md) | [Q&A](1_learn/9_ai_question_summary.md) |
+| 10. Error Handling | - | [summary](1_learn/10_summary_notebooklm.md) / [blog](1_learn/10_summary_notebooklm_blog.md) | [Q&A](1_learn/10_ai_question_summary.md) |
+| 11. CSS | - | [summary](1_learn/11_summary_notebooklm.md) / [blog](1_learn/11_summary_notebooklm_blog.md) | [Q&A](1_learn/11_ai_question_summary.md) |
+| 12. Images | - | [summary](1_learn/12_summary_notebooklm.md) / [blog](1_learn/12_summary_notebooklm_blog.md) | [Q&A](1_learn/12_ai_question_summary.md) |
+| 13. Fonts | - | [summary](1_learn/13_summary_notebooklm.md) / [blog](1_learn/13_summary_notebooklm_blog.md) | [Q&A](1_learn/13_ai_question_summary.md) |
+| 14. Metadata and OG Images | - | [summary](1_learn/14_summary_notebooklm.md) / [blog](1_learn/14_summary_notebooklm_blog.md) | [Q&A](1_learn/14_ai_question_summary.md) |
+| 15. Route Handlers | - | [summary](1_learn/15_summary_notebooklm.md) | [Q&A](1_learn/15_ai_question_summary.md) |
+| 16. Proxy | - | [summary](1_learn/16_summary_notebook.md) / [blog](1_learn/16_summary_notebooklm_blog.md) | - |
+| 17. Deploying | - | [summary](1_learn/17_summary_notebooklm.md) / [blog](1_learn/17_summary_notebooklm_blog.md) | - |
+| 18. Upgrading | - | [summary](1_learn/18_summary_notebooklm.md) / [blog](1_learn/18_summary_notebooklm_blog.md) | - |
 
 ### `my-app/` — Next.js アプリ
 
@@ -82,24 +91,24 @@ npm run dev
 
 ### Getting Started（nextjsjp.org）
 
-- [x] [インストール](https://nextjsjp.org/docs/app/getting-started/installation)
-- [x] [プロジェクト構造](https://nextjsjp.org/docs/app/getting-started/project-structure)
-- [x] [レイアウトとページ](https://nextjsjp.org/docs/app/getting-started/layouts-and-pages)
-- [x] [リンクとナビゲーション](https://nextjsjp.org/docs/app/getting-started/linking-and-navigating)
-- [x] [Server コンポーネントと Client コンポーネント](https://nextjsjp.org/docs/app/getting-started/server-and-client-components)
-- [x] [Cache Components](https://nextjsjp.org/docs/app/getting-started/cache-components)
-- [x] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data)
-- [x] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data)
-- [x] [キャッシングと再検証](https://nextjsjp.org/docs/app/getting-started/caching-and-revalidating)
-- [x] [エラーハンドリング](https://nextjsjp.org/docs/app/getting-started/error-handling)
-- [x] [CSS](https://nextjsjp.org/docs/app/getting-started/css)
-- [x] [画像の最適化](https://nextjsjp.org/docs/app/getting-started/images)
-- [x] [フォント最適化](https://nextjsjp.org/docs/app/getting-started/fonts)
-- [x] [メタデータと OG 画像](https://nextjsjp.org/docs/app/getting-started/metadata-and-og-images)
-- [x] [Route Handlers](https://nextjsjp.org/docs/app/getting-started/route-handlers)
-- [x] [Proxy](https://nextjsjp.org/docs/app/getting-started/proxy)
-- [x] [デプロイ](https://nextjsjp.org/docs/app/getting-started/deploying)
-- [x] [アップグレード](https://nextjsjp.org/docs/app/getting-started/upgrading)
+- [x] [インストール](https://nextjsjp.org/docs/app/getting-started/installation) — [ノート](1_learn/1_installation.md)
+- [x] [プロジェクト構造](https://nextjsjp.org/docs/app/getting-started/project-structure) — [ノート](1_learn/2_project-structure.md)
+- [x] [レイアウトとページ](https://nextjsjp.org/docs/app/getting-started/layouts-and-pages) — [ノート](1_learn/3_layouts-and-pages.md)
+- [x] [リンクとナビゲーション](https://nextjsjp.org/docs/app/getting-started/linking-and-navigating) — [ノート](1_learn/4_linking-and-navigating.md)
+- [x] [Server コンポーネントと Client コンポーネント](https://nextjsjp.org/docs/app/getting-started/server-and-client-components) — [ノート](1_learn/5_server-and-client-components.md)
+- [x] [Cache Components](https://nextjsjp.org/docs/app/getting-started/cache-components) — [ノート](1_learn/6_cache-components.md)
+- [x] [データの取得](https://nextjsjp.org/docs/app/getting-started/fetching-data) — [ノート](1_learn/7_fetching-data.md)
+- [x] [データの更新](https://nextjsjp.org/docs/app/getting-started/updating-data) — [サマリ](1_learn/8_summary_notebooklm.md)
+- [x] [キャッシングと再検証](https://nextjsjp.org/docs/app/getting-started/caching-and-revalidating) — [サマリ](1_learn/9_summary_notebooklm.md)
+- [x] [エラーハンドリング](https://nextjsjp.org/docs/app/getting-started/error-handling) — [サマリ](1_learn/10_summary_notebooklm.md)
+- [x] [CSS](https://nextjsjp.org/docs/app/getting-started/css) — [サマリ](1_learn/11_summary_notebooklm.md)
+- [x] [画像の最適化](https://nextjsjp.org/docs/app/getting-started/images) — [サマリ](1_learn/12_summary_notebooklm.md)
+- [x] [フォント最適化](https://nextjsjp.org/docs/app/getting-started/fonts) — [サマリ](1_learn/13_summary_notebooklm.md)
+- [x] [メタデータと OG 画像](https://nextjsjp.org/docs/app/getting-started/metadata-and-og-images) — [サマリ](1_learn/14_summary_notebooklm.md)
+- [x] [Route Handlers](https://nextjsjp.org/docs/app/getting-started/route-handlers) — [サマリ](1_learn/15_summary_notebooklm.md)
+- [x] [Proxy](https://nextjsjp.org/docs/app/getting-started/proxy) — [サマリ](1_learn/16_summary_notebook.md)
+- [x] [デプロイ](https://nextjsjp.org/docs/app/getting-started/deploying) — [サマリ](1_learn/17_summary_notebooklm.md)
+- [x] [アップグレード](https://nextjsjp.org/docs/app/getting-started/upgrading) — [サマリ](1_learn/18_summary_notebooklm.md)
 
 ### Dashboard App（nextjs.org/learn）
 
