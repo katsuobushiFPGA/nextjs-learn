@@ -111,7 +111,7 @@ npm run dev
 - [x] [Setting Up Your Database](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
 - [x] [Fetching Data](https://nextjs.org/learn/dashboard-app/fetching-data)
 - [x] [Static and Dynamic Rendering](https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering)
-- [ ] [Streaming](https://nextjs.org/learn/dashboard-app/streaming)
+- [x] [Streaming](https://nextjs.org/learn/dashboard-app/streaming)
 - [ ] [Adding Search and Pagination](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
 - [ ] [Mutating Data](https://nextjs.org/learn/dashboard-app/mutating-data)
 - [ ] [Handling Errors](https://nextjs.org/learn/dashboard-app/error-handling)
