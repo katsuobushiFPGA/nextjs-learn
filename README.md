@@ -7,7 +7,8 @@ Next.js 公式ドキュメントを読み進めながら学習するリポジト
 ```
 nextjs-learn/
 ├── 1_learn/          # 学習ノート（Markdown）
-└── my-app/           # 実践用 Next.js アプリ
+├── my-app/           # 実践用 Next.js アプリ（Getting Started 用）
+└── nextjs-dashboard/ # Dashboard App チュートリアル用
 ```
 
 ### `1_learn/` — 学習ノート
@@ -105,11 +106,11 @@ npm run dev
 - [x] [Getting Started](https://nextjs.org/learn/dashboard-app/getting-started)
 - [x] [CSS Styling](https://nextjs.org/learn/dashboard-app/css-styling)
 - [x] [Optimizing Fonts and Images](https://nextjs.org/learn/dashboard-app/optimizing-fonts-images)
-- [ ] [Creating Layouts and Pages](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages)
-- [ ] [Navigating Between Pages](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
-- [ ] [Setting Up Your Database](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
-- [ ] [Fetching Data](https://nextjs.org/learn/dashboard-app/fetching-data)
-- [ ] [Static and Dynamic Rendering](https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering)
+- [x] [Creating Layouts and Pages](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages)
+- [x] [Navigating Between Pages](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
+- [x] [Setting Up Your Database](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
+- [x] [Fetching Data](https://nextjs.org/learn/dashboard-app/fetching-data)
+- [x] [Static and Dynamic Rendering](https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering)
 - [ ] [Streaming](https://nextjs.org/learn/dashboard-app/streaming)
 - [ ] [Adding Search and Pagination](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
 - [ ] [Mutating Data](https://nextjs.org/learn/dashboard-app/mutating-data)
