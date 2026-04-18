@@ -123,7 +123,7 @@ npm run dev
 - [x] [Streaming](https://nextjs.org/learn/dashboard-app/streaming)
 - [x] [Adding Search and Pagination](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination)
 - [x] [Mutating Data](https://nextjs.org/learn/dashboard-app/mutating-data)
-- [ ] [Handling Errors](https://nextjs.org/learn/dashboard-app/error-handling)
+- [x] [Handling Errors](https://nextjs.org/learn/dashboard-app/error-handling)
 - [ ] [Improving Accessibility](https://nextjs.org/learn/dashboard-app/improving-accessibility)
 - [ ] [Adding Authentication](https://nextjs.org/learn/dashboard-app/adding-authentication)
 - [ ] [Adding Metadata](https://nextjs.org/learn/dashboard-app/adding-metadata)
