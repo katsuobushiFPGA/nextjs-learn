@@ -126,4 +126,4 @@ npm run dev
 - [x] [Handling Errors](https://nextjs.org/learn/dashboard-app/error-handling)
 - [x] [Improving Accessibility](https://nextjs.org/learn/dashboard-app/improving-accessibility)
 - [x] [Adding Authentication](https://nextjs.org/learn/dashboard-app/adding-authentication)
-- [ ] [Adding Metadata](https://nextjs.org/learn/dashboard-app/adding-metadata)
+- [x] [Adding Metadata](https://nextjs.org/learn/dashboard-app/adding-metadata)
