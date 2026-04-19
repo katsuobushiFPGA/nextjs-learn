@@ -2,6 +2,31 @@ import Form from '@/app/ui/invoices/edit-form';
 import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
 import { fetchInvoiceById, fetchCustomers } from '@/app/lib/data';
 import { notFound } from 'next/navigation';
+import { Metadata, ResolvingMetadata } from "next";
+
+export async function generateMetadata(
+  { params, searchParams }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  // read route params
+  const { id } = await params
+
+  const [invoice, customers] = await Promise.all([
+    fetchInvoiceById(id),
+    fetchCustomers(),
+  ]);
+
+  // optionally access and extend (rather than replace) parent metadata
+  const previousImages = (await parent).openGraph?.images || []
+
+  return {
+    title: `Invoice edit ${invoice.status}`,
+    openGraph: {
+      images: ['/opengraph-image.png', ...previousImages],
+    },
+  }
+}
+
 
 export default async function Page(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
